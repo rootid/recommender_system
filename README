@@ -1,7 +1,10 @@
-1.Product association algorithm
+1.Item-Item CF algorithm
+2.User-User CF algorithm
+3.SVD algorithm
+4.Product association algorithm
 Focuses on what items are most likely to occur in conjunction with given item.
 In terms of recommender system
 ((other_item && given_item)/given_item)
 In terms of probability
 prob(other_item | given_item) (expand normal Bayes rule)
-2.SVD algorithm
+
