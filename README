@@ -1,0 +1,6 @@
+1.Product association algorithm
+Focuses on what items are most likely to occur in conjunction with given item.
+In terms of recommender system
+((other_item && given_item)/given_item)
+In terms of probability
+prob(other_item | given_item) (expand normal Bayes rule)
