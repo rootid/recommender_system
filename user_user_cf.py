@@ -4,6 +4,12 @@ import numpy as np
 import math
 from scipy import stats
 
+#Rating prediction with user-user cosine simillarity 
+#0.Compute mean-centered matrix
+#1.Compute sim matrix betwen 2 user vectors
+#2.Order sim matrix
+#3.Compute rating based on rating,mean-centered,rating and simillarity
+
 #movie is item 
 FMT = "%.4f" 
 NBR_THRESHOLD = 30
